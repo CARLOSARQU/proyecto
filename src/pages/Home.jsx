@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import HeroImage from "../assets/logo.jpg"; // reemplaza con tu imagen
+import Founders from "./Founders";
 
 export default function Home() {
 return (
@@ -32,11 +33,13 @@ return (
         <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center mb-8">¿Quiénes somos?</h2>
             <p className="max-w-2xl mx-auto text-center text-gray-700 leading-relaxed">
-            Somos un grupo de voluntarios comprometidos con [mencionar misión].
-            Desde [año de inicio], trabajamos en proyectos de [áreas de acción].
+                Somos un grupo de voluntarios comprometidos con [mencionar misión].
+                Desde [año de inicio], trabajamos en proyectos de [áreas de acción].
             </p>
         </div>
     </section>
+
+    <Founders />
 
     {/* Funcionamientos básicos */}
     <section className="py-16">
