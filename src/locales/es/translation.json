@@ -10,23 +10,35 @@
         "description": "Somos un grupo de voluntarios comprometidos con [mencionar misión]. Desde [año de inicio], trabajamos en proyectos de [áreas de acción]."
     },
 
-    "founders":{
-        "founder": "Rusman Apaza"
-
+    "founders": {
+        "title": "Nuestros Fundadores",
+        "subtitle": "Conoce a las mentes detrás de nuestra misión de crear un impacto positivo en la comunidad",
+        "role": {
+            "founder": "Fundador & CEO",
+            "cofounder": "Co-Fundador & CTO",
+            "director": "Co-Fundador & Director de Innovación",
+            "advisor": "Co-Fundador & Asesor Estratégico"
+        },
+        "description": {
+            "founder": "Apasionado por la tecnología y el impacto social. Más de 10 años de experiencia en desarrollo de software.",
+            "cofounder": "Experto en arquitectura de software y liderazgo técnico. Comprometido con la innovación y el desarrollo sostenible.",
+            "director": "Especialista en innovación y desarrollo de proyectos tecnológicos. Enfocado en crear soluciones que generen impacto social.",
+            "advisor": "Experto en estrategia digital y transformación tecnológica. Comprometido con el desarrollo de soluciones innovadoras para el sector social."
+        }
     },
 
     "projects": {
         "a": {
-        "title": "Proyecto A",
-        "description": "Breve descripción de tu primera iniciativa."
+            "title": "Proyecto A",
+            "description": "Breve descripción de tu primera iniciativa."
         },
         "b": {
-        "title": "Proyecto B",
-        "description": "Breve descripción de tu segunda iniciativa."
+            "title": "Proyecto B",
+            "description": "Breve descripción de tu segunda iniciativa."
         },
         "c": {
-        "title": "Proyecto C",
-        "description": "Breve descripción de tu tercera iniciativa."
+            "title": "Proyecto C",
+            "description": "Breve descripción de tu tercera iniciativa."
         }
     },
     "footer": {

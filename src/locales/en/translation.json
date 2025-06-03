@@ -1,12 +1,28 @@
 {
   "hero": {
     "title": "Join our cause!",
-    "description": "We help develop social impact projects, organize workshops, hackathons and podcasts. Train other students and schools. Learn from experts and outstanding graduates. Be part of the change today.",
-    "contact": "Contact us"
+    "description": "We help develop social impact projects, organize workshops, hackathons and podcasts. Train other students and schools. And learn from experts and outstanding graduates. Be part of the change today.",
+    "contact": "Contact Us"
   },
   "about": {
-    "title": "Who are we?",
-    "description": "We are a group of volunteers committed to [state mission]. Since [start year], we have worked on projects in [action areas]."
+    "title": "What is Ayni Digital?",
+    "description": "We are a group of volunteers committed to [mention mission]. Since [start year], we have been working on projects in [action areas]."
+  },
+  "founders": {
+    "title": "Our Founders",
+    "subtitle": "Meet the minds behind our mission to create a positive impact in the community",
+    "role": {
+      "founder": "Founder & CEO",
+      "cofounder": "Co-Founder & CTO",
+      "director": "Co-Founder & Innovation Director",
+      "advisor": "Co-Founder & Strategic Advisor"
+    },
+    "description": {
+      "founder": "Passionate about technology and social impact. Over 10 years of experience in software development.",
+      "cofounder": "Expert in software architecture and technical leadership. Committed to innovation and sustainable development.",
+      "director": "Specialist in innovation and technological project development. Focused on creating solutions that generate social impact.",
+      "advisor": "Expert in digital strategy and technological transformation. Committed to developing innovative solutions for the social sector."
+    }
   },
   "projects": {
     "a": {
@@ -23,6 +39,6 @@
     }
   },
   "footer": {
-    "contact": "Contact us"
+    "contact": "Contact Us"
   }
 }
