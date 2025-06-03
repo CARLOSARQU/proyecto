@@ -4,10 +4,17 @@
         "description": "Ayudamos a desarrollar proyectos con impacto social, a organizar talleres, hackathones y podcasts. Capacitar a otros estudiantes y colegios. Y aprender de expertos y egresados destacados. Sé parte del cambio hoy.",
         "contact": "Contáctanos"
     },
+
     "about": {
-        "title": "¿Quiénes somos?",
+        "title": "Qué es Ayni Digital?",
         "description": "Somos un grupo de voluntarios comprometidos con [mencionar misión]. Desde [año de inicio], trabajamos en proyectos de [áreas de acción]."
     },
+
+    "founders":{
+        "founder": "Rusman Apaza"
+
+    },
+
     "projects": {
         "a": {
         "title": "Proyecto A",
