@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Contacto from "./pages/Contacto";
-import Founders from "./pages/Founders";
+import Founders from "./components/Founders";
 function App() {
   return (
     <BrowserRouter>

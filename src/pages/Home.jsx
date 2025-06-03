@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import HeroImage from "../assets/logo.jpg"; // reemplaza con tu imagen
-import Founders from "./Founders";
+import Founders from "../components/Founders";
 
 export default function Home() {
 return (
