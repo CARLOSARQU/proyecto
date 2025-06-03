@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "title": "Join our cause!",
+    "description": "We help develop social impact projects, organize workshops, hackathons and podcasts. Train other students and schools. Learn from experts and outstanding graduates. Be part of the change today.",
+    "contact": "Contact us"
+  },
+  "about": {
+    "title": "Who are we?",
+    "description": "We are a group of volunteers committed to [state mission]. Since [start year], we have worked on projects in [action areas]."
+  },
+  "projects": {
+    "a": {
+      "title": "Project A",
+      "description": "Brief description of your first initiative."
+    },
+    "b": {
+      "title": "Project B",
+      "description": "Brief description of your second initiative."
+    },
+    "c": {
+      "title": "Project C",
+      "description": "Brief description of your third initiative."
+    }
+  },
+  "footer": {
+    "contact": "Contact us"
+  }
+}

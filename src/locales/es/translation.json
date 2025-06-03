@@ -1,0 +1,28 @@
+{
+    "hero": {
+        "title": "¡Únete a nuestra causa!",
+        "description": "Ayudamos a desarrollar proyectos con impacto social, a organizar talleres, hackathones y podcasts. Capacitar a otros estudiantes y colegios. Y aprender de expertos y egresados destacados. Sé parte del cambio hoy.",
+        "contact": "Contáctanos"
+    },
+    "about": {
+        "title": "¿Quiénes somos?",
+        "description": "Somos un grupo de voluntarios comprometidos con [mencionar misión]. Desde [año de inicio], trabajamos en proyectos de [áreas de acción]."
+    },
+    "projects": {
+        "a": {
+        "title": "Proyecto A",
+        "description": "Breve descripción de tu primera iniciativa."
+        },
+        "b": {
+        "title": "Proyecto B",
+        "description": "Breve descripción de tu segunda iniciativa."
+        },
+        "c": {
+        "title": "Proyecto C",
+        "description": "Breve descripción de tu tercera iniciativa."
+        }
+    },
+    "footer": {
+        "contact": "Contáctanos"
+    }
+}
