@@ -24,11 +24,11 @@ export default function Navbar() {
         </Link>
         <div className="space-x-6 flex items-center">
           <Link to="/" className="hover:text-green-500 flex items-center gap-2">
-            Inicio
+            {t("navbar.home")}
             <FaHome className="text-xl" />
           </Link>
           <Link to="/contacto" className="hover:text-green-500 flex items-center gap-2 align-middle">
-            Contacto
+            {t("navbar.contact")}
             <FaAddressBook className="text-xl" />
           </Link>
           <button onClick={toggleLanguage} className="text-white bg-green-600 px-3 py-1 rounded hover:bg-green-700 flex items-center gap-2">
