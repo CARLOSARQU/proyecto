@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/logo-removebg-preview.png";
+import logo from "../assets/img/logo-removebg-preview.png";
 import { FaAddressBook, FaHome, FaGlobe } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 
 
 export default function Navbar() {
+
   const { i18n, t } = useTranslation();
   const [language, setLanguage] = useState(i18n.language || "es");
 
@@ -20,7 +21,7 @@ export default function Navbar() {
       <div className="container mx-auto flex items-center justify-between p-4">
         <Link to="/" className="text-2xl font-bold text-green-600 flex items-center gap-2">
           <img src={logo} alt="Logo" className="h-8 w-8" />
-          Voluntariado
+          Ayni Digital
         </Link>
         <div className="space-x-6 flex items-center">
           <Link to="/" className="hover:text-green-500 flex items-center gap-2">

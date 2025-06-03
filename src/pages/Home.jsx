@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from "react-router-dom";
-import HeroImage from "../assets/logo.jpg"; // reemplaza con tu imagen
+import HeroImage from "../assets/img/logo.jpg"; // reemplaza con tu imagen
 import Founders from "../components/Founders";
 
 
@@ -53,7 +53,7 @@ export default function Home() {
 
         <footer className="bg-gray-800 text-gray-400 py-6">
             <div className="container mx-auto px-4 text-center">
-            © {new Date().getFullYear()} Voluntariado ·
+            © {new Date().getFullYear()} Ayni Digital ·
             <Link to="/contacto" className="ml-2 hover:text-white">
                 {t('footer.contact')}
             </Link>
