@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from "react-router-dom";
-import HeroImage from "../assets/img/logo.jpg"; // reemplaza con tu imagen
+import HeroImage from "../assets/img/ia.jpg"; // reemplaza con tu imagen
 import Founders from "../components/Founders";
 
 
@@ -44,7 +44,7 @@ export default function Home() {
             <div className="container mx-auto px-4 grid md:grid-cols-3 gap-8">
             {['a', 'b', 'c'].map((key) => (
                 <div key={key} className="p-6 border rounded-lg shadow-sm hover:shadow-md transition">
-                <h3 className="text-xl font-semibold mb-2">{t(`projects.${key}.title`)}</h3>
+                <h3 className="text-xl text-principal font-semibold mb-2">{t(`projects.${key}.title`)}</h3>
                 <p className="text-gray-600">{t(`projects.${key}.description`)}</p>
                 </div>
             ))}

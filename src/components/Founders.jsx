@@ -1,14 +1,24 @@
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { useTranslation } from 'react-i18next';
 
-const founders = [
+const founders = [ 
+  {
+    name: "Jean Apaza",
+    roleKey: "advisor",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3",
+    social: {
+      github: "#",
+      linkedin: "#",
+      twitter: "#"
+    }
+  },
   {
     name: "Rusman Apaza",
     roleKey: "founder",
     image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3",
     social: {
-      github: "#",
-      linkedin: "#",
+      github: "https://github.com/RYUSNEY",
+      linkedin: "https://www.linkedin.com/in/rusman-apaza-paricahua-133526334/",
       twitter: "#"
     }
   },
@@ -17,27 +27,17 @@ const founders = [
     roleKey: "cofounder",
     image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3",
     social: {
-      github: "#",
+      github: "https://github.com/CARLOSARQU",
       linkedin: "#",
       twitter: "#"
     }
   },
   {
     name: "Eddy Quea",
-    roleKey: "director",
+    roleKey: "cofounder",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3",
     social: {
-      github: "#",
-      linkedin: "#",
-      twitter: "#"
-    }
-  },
-  {
-    name: "Jean Apaza",
-    roleKey: "advisor",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3",
-    social: {
-      github: "#",
+      github: "https://github.com/EddyGonzalo",
       linkedin: "#",
       twitter: "#"
     }

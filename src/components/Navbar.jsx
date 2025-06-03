@@ -17,22 +17,22 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-[#2bccd4] shadow-md">
+    <nav className="bg-principal shadow-md">
       <div className="container mx-auto flex items-center justify-between p-4">
-        <Link to="/" className="text-2xl font-bold text-green-600 flex items-center gap-2">
+        <Link to="/" className="text-2xl font-bold text-secundario flex items-center gap-2">
           <img src={logo} alt="Logo" className="h-8 w-8" />
           Ayni Digital
         </Link>
         <div className="space-x-6 flex items-center">
-          <Link to="/" className="hover:text-green-500 flex items-center gap-2">
+          <Link to="/" className="text-white hover:text-secundario flex items-center gap-2">
             {t("navbar.home")}
             <FaHome className="text-xl" />
           </Link>
-          <Link to="/contacto" className="hover:text-green-500 flex items-center gap-2 align-middle">
+          <Link to="/contacto" className="text-white hover:text-secundario flex items-center gap-2 align-middle">
             {t("navbar.contact")}
             <FaAddressBook className="text-xl" />
           </Link>
-          <button onClick={toggleLanguage} className="text-white bg-green-600 px-3 py-1 rounded hover:bg-green-700 flex items-center gap-2">
+          <button onClick={toggleLanguage} className="text-white bg-secundario px-3 py-1 rounded hover:bg-secundario flex items-center gap-2">
             <FaGlobe className="text-xl" />
             {language.toUpperCase()}
           </button>
