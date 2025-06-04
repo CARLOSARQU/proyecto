@@ -1,9 +1,24 @@
 {
+  "navbar": {
+        "home": "Home",
+        "contact": "Contact"
+    },
+
   "hero": {
     "title": "Join our cause!",
     "description": "We help develop social impact projects, organize workshops, hackathons and podcasts. Train other students and schools. And learn from experts and outstanding graduates. Be part of the change today.",
     "contact": "Contact Us"
   },
+
+  "mission": {
+    "title": "Our Mission",
+    "text": "Promote digital inclusion through community collaboration by providing technological tools, training, and support to the people and organizations who need it most."
+  },
+  "vision": {
+    "title": "Our Vision",
+    "text": "To be a benchmark in digital solidarity transformation in Latin America, building bridges between technological knowledge and communities to create lasting social impact."
+  },
+
   "about": {
     "title": "What is Ayni Digital?",
     "description": "We are a group of volunteers committed to [mention mission]. Since [start year], we have been working on projects in [action areas]."

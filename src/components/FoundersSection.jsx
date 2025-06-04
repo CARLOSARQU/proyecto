@@ -72,10 +72,10 @@ export default function Founders() {
                   />
                 </div>
                 <div className="p-6 md:w-full">
-                  <h3 className="text-2xl font-bold text-gray-800 mb-2">
+                  <h3 className="text-2xl font-bold text-principal mb-2">
                     {founder.name}
                   </h3>
-                  <p className="text-[#2bccd4] font-semibold mb-4">
+                  <p className="text-secundario font-semibold mb-4">
                     {t(`founders.role.${founder.roleKey}`)}
                   </p>
                   <p className="text-gray-600 mb-6">
@@ -84,19 +84,19 @@ export default function Founders() {
                   <div className="flex space-x-4">
                     <a 
                       href={founder.social.github} 
-                      className="text-gray-600 hover:text-gray-900 transition-colors"
+                      className="text-gray-600 hover:text-secundario transition-colors"
                     >
                       <FaGithub className="text-2xl" />
                     </a>
                     <a 
                       href={founder.social.linkedin} 
-                      className="text-gray-600 hover:text-gray-900 transition-colors"
+                      className="text-gray-600 hover:text-secundario transition-colors"
                     >
                       <FaLinkedin className="text-2xl" />
                     </a>
                     <a 
                       href={founder.social.twitter} 
-                      className="text-gray-600 hover:text-gray-900 transition-colors"
+                      className="text-gray-600 hover:text-secundario transition-colors"
                     >
                       <FaTwitter className="text-2xl" />
                     </a>

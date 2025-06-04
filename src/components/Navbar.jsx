@@ -1,14 +1,13 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/img/logo-removebg-preview.png";
-import { FaAddressBook, FaHome, FaGlobe } from "react-icons/fa";
+import logo from "../assets/img/logo-sin-fondo.png";
+import { FaAddressBook, FaHome, FaGlobe, FaBars, FaTimes } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 
-
 export default function Navbar() {
-
   const { i18n, t } = useTranslation();
   const [language, setLanguage] = useState(i18n.language || "es");
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggleLanguage = () => {
     const newLang = language === "es" ? "en" : "es";
@@ -16,30 +15,67 @@ export default function Navbar() {
     setLanguage(newLang);
   };
 
+  const toggleMenu = () => {
+    setIsOpen((prev) => !prev);
+  };
+
   return (
-    <nav className="bg-principal shadow-md">
+    <nav className="bg-principal fixed top-0 left-0 w-full z-50 shadow-md">
       <div className="container mx-auto flex items-center justify-between p-4">
+        {/* Logo + Título */}
         <Link to="/" className="text-2xl font-bold text-secundario flex items-center gap-2">
           <img src={logo} alt="Logo" className="h-8 w-8" />
           Ayni Digital
         </Link>
-        <div className="space-x-6 flex items-center">
-          <Link to="/" className="text-white hover:text-secundario flex items-center gap-2">
+
+        {/* Botón móvil (solo se ve en pantallas pequeñas) */}
+        <button
+          onClick={toggleMenu}
+          className="md:hidden text-secundario focus:outline-none"
+          aria-label="Toggle menu"
+        >
+          {isOpen ? <FaTimes className="text-2xl" /> : <FaBars className="text-2xl" />}
+        </button>
+
+        {/* Menú de enlaces */}
+        <div
+          className={`
+            ${isOpen ? "block" : "hidden"} 
+            md:flex md:items-center md:space-x-6
+            w-full md:w-auto
+            bg-principal md:bg-transparent
+            absolute top-full left-0 md:static
+            text-center md:text-left
+          `}
+        >
+          <Link
+            to="/"
+            className="block md:inline-flex w-full md:w-auto px-4 py-2 text-white hover:text-secundario transition"
+            onClick={() => setIsOpen(false)}
+          >
+            <FaHome className="inline-block mr-1 text-base align-middle" />
             {t("navbar.home")}
-            <FaHome className="text-xl" />
           </Link>
-          <Link to="/contacto" className="text-white hover:text-secundario flex items-center gap-2 align-middle">
+          <Link
+            to="/contacto"
+            className="block md:inline-flex w-full md:w-auto px-4 py-2 text-white hover:text-secundario transition"
+            onClick={() => setIsOpen(false)}
+          >
+            <FaAddressBook className="inline-block mr-1 text-base align-middle" />
             {t("navbar.contact")}
-            <FaAddressBook className="text-xl" />
           </Link>
-          <button onClick={toggleLanguage} className="text-white bg-secundario px-3 py-1 rounded hover:bg-secundario flex items-center gap-2">
-            <FaGlobe className="text-xl" />
+          <button
+            onClick={() => {
+              toggleLanguage();
+              setIsOpen(false);
+            }}
+            className="md:inline-flex w-full md:w-auto px-4 py-2 text-white bg-secundario hover:bg-principal rounded md:rounded transition flex items-center justify-center"
+          >
+            <FaGlobe className="inline-block mr-1 text-base align-middle" />
             {language.toUpperCase()}
           </button>
         </div>
-        
       </div>
     </nav>
   );
 }
-
