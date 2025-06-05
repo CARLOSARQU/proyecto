@@ -1,13 +1,13 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from "react-router-dom";
-import Founders from "../components/FoundersSection";
+import Founders from "../sections/HomeSections/FoundersSection";
 import MissionVisionCarousel from '../components/MissionVisionCarousel';
-import AboutSection from '../components/AboutSection';
-import JoinSection from '../components/JoinSection';
+import AboutSection from '../sections/HomeSections/AboutSection';
+import JoinSection from '../sections/HomeSections/JoinSection';
 
 
 export default function Home() {
-    const { t } = useTranslation(); // Para usara variables de texto de locales segun idioma
+    const { t } = useTranslation();
 
     return (
         <div className="flex flex-col min-h-screen pt-16">

@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import HeroImage from "../assets/img/ia.jpg"; // reemplaza con tu imagen
+import HeroImage from "../../assets/img/ia.jpg"; // reemplaza con tu imagen
 
 export default function JoinSection() {
     const { t } = useTranslation();
