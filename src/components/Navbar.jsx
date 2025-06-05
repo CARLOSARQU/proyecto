@@ -4,6 +4,7 @@ import { FaAddressBook, FaHome, FaGlobe, FaBars, FaTimes } from "react-icons/fa"
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import Button from "./Button";
+import NavbarTo from "./NavbarTo";
 
 export default function Navbar() {
   const { i18n, t } = useTranslation();
@@ -49,32 +50,25 @@ export default function Navbar() {
             text-center md:text-left
           `}
         >
-          <Button
+          <NavbarTo
             to="/"
-            variant="secondary"
-            size="sm"
-            className="w-full md:w-auto"
             icon={FaHome}
             onClick={() => setIsOpen(false)}
           >
             {t("navbar.home")}
-          </Button>
-          <Button
+          </NavbarTo>
+          <NavbarTo
             to="/contacto"
-            variant="secondary"
-            size="sm"
-            className="w-full md:w-auto"
             icon={FaAddressBook}
             onClick={() => setIsOpen(false)}
           >
             {t("navbar.contact")}
-          </Button>
+          </NavbarTo>
           <Button 
             onClick={() => {
               toggleLanguage();
               setIsOpen(false);
             }}
-            size="sm"
             icon={FaGlobe}
           >
             {language.toUpperCase()}
