@@ -50,19 +50,19 @@ export default function Navbar() {
         >
           <Link
             to="/"
-            className="block md:inline-flex w-full md:w-auto px-4 py-2 text-white hover:text-secundario transition"
+            className="block md:inline-flex w-full md:w-auto px-4 py-2 text-white hover:text-secundario transition items-center md:justify-between flex-col md:flex-row gap-2 md:gap-4"
             onClick={() => setIsOpen(false)}
           >
-            <FaHome className="inline-block mr-1 text-base align-middle" />
             {t("navbar.home")}
+            <FaHome className="text-base hidden md:block" />
           </Link>
           <Link
             to="/contacto"
-            className="block md:inline-flex w-full md:w-auto px-4 py-2 text-white hover:text-secundario transition"
+            className="block md:inline-flex w-full md:w-auto px-4 py-2 text-white hover:text-secundario transition items-center md:justify-between flex-col md:flex-row gap-2 md:gap-4"
             onClick={() => setIsOpen(false)}
           >
-            <FaAddressBook className="inline-block mr-1 text-base align-middle" />
             {t("navbar.contact")}
+            <FaAddressBook className="text-base hidden md:block" />
           </Link>
           <button
             onClick={() => {
