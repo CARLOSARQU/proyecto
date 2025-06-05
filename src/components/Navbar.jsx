@@ -3,6 +3,7 @@ import logo from "../assets/img/logo-sin-fondo.png";
 import { FaAddressBook, FaHome, FaGlobe, FaBars, FaTimes } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
+import Button from "./Button";
 
 export default function Navbar() {
   const { i18n, t } = useTranslation();
@@ -48,32 +49,36 @@ export default function Navbar() {
             text-center md:text-left
           `}
         >
-          <Link
+          <Button
             to="/"
-            className="block md:inline-flex w-full md:w-auto px-4 py-2 text-white hover:text-secundario transition items-center md:justify-between flex-col md:flex-row gap-2 md:gap-4"
+            variant="secondary"
+            size="sm"
+            className="w-full md:w-auto"
+            icon={FaHome}
             onClick={() => setIsOpen(false)}
           >
             {t("navbar.home")}
-            <FaHome className="text-base hidden md:block" />
-          </Link>
-          <Link
+          </Button>
+          <Button
             to="/contacto"
-            className="block md:inline-flex w-full md:w-auto px-4 py-2 text-white hover:text-secundario transition items-center md:justify-between flex-col md:flex-row gap-2 md:gap-4"
+            variant="secondary"
+            size="sm"
+            className="w-full md:w-auto"
+            icon={FaAddressBook}
             onClick={() => setIsOpen(false)}
           >
             {t("navbar.contact")}
-            <FaAddressBook className="text-base hidden md:block" />
-          </Link>
-          <button
+          </Button>
+          <Button 
             onClick={() => {
               toggleLanguage();
               setIsOpen(false);
             }}
-            className="md:inline-flex w-full md:w-auto px-4 py-2 text-white bg-secundario hover:bg-principal rounded md:rounded transition flex items-center justify-center"
+            size="sm"
+            icon={FaGlobe}
           >
-            <FaGlobe className="inline-block mr-1 text-base align-middle" />
             {language.toUpperCase()}
-          </button>
+          </Button>
         </div>
       </div>
     </nav>
