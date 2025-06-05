@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-
+import { SectionTitle} from '../components/SectionTitle';
 export default function MissionVisionCarousel() {
     const { t } = useTranslation();
     const slides = [
@@ -26,9 +26,7 @@ export default function MissionVisionCarousel() {
 
     return (
     <div className="max-w-3xl mx-auto my-10 p-6 bg-white shadow-lg rounded-lg">
-        <h2 className="text-2xl font-bold text-center text-principal mb-4">
-        {slides[current].title}
-        </h2>
+        <SectionTitle title={slides[current].title}/>
         <p className="text-gray-700 text-center text-lg">
         {slides[current].text}
         </p>
