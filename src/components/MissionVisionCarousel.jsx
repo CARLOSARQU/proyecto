@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { SectionTitle} from '../components/SectionTitle';
+import SectionTitle from '../components/SectionTitle';
+
 export default function MissionVisionCarousel() {
     const { t } = useTranslation();
     const slides = [
@@ -41,4 +42,4 @@ export default function MissionVisionCarousel() {
         </div>
     </div>
     );
-    }
+}

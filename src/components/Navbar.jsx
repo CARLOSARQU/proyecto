@@ -57,6 +57,7 @@ export default function Navbar() {
           >
             {t("navbar.home")}
           </NavbarTo>
+          
           <NavbarTo
             to="/contacto"
             icon={FaAddressBook}
