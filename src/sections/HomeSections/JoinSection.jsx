@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import HeroImage from "../../assets/img/ia.jpg";
+import HeroImage from "../../assets/img/ia.webp";
 import Button from "../../components/Button";
 
 export default function JoinSection() {

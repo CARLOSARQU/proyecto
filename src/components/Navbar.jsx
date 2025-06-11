@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/img/logo-sin-fondo.png";
+import logo from "../assets/img/logo.webp";
 import { FaAddressBook, FaHome, FaGlobe, FaBars, FaTimes } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
