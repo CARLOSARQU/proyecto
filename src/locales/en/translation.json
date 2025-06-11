@@ -6,8 +6,8 @@
 
   "hero": {
     "title": "Join our cause!",
-    "description": "We help develop social impact projects, organize workshops, hackathons and podcasts. Train other students and schools. And learn from experts and outstanding graduates. Be part of the change today.",
-    "contact": "Contact Us"
+    "description": "We help develop social impact projects, organize workshops, hackathons and podcasts. Train other students and schools. Learn from experts and outstanding graduates. Be part of the change today.",
+    "contact": "Contact us"
   },
 
   "mission": {
@@ -20,8 +20,8 @@
   },
 
   "about": {
-    "title": "What is Ayni Digital?",
-    "description": "We are a group of volunteers committed to [mention mission]. Since [start year], we have been working on projects in [action areas]."
+    "title": "Who are we?",
+    "description": "We are a group of volunteers committed to [state mission]. Since [start year], we have worked on projects in [action areas]."
   },
   "founders": {
     "title": "Our Founders",
@@ -40,39 +40,65 @@
     }
   },
   "projects": {
+    "title": "From Our Projects",
+    "subtitle": "Learn how we are growing and making an impact with our projects.",
     "a": {
-      "title": "Project A",
-      "description": "Brief description of your first initiative."
+        "category": "Technology",
+        "date": "Mar 16, 2024",
+        "title": "Boosting AI in the community",
+        "description": "A look at how our AI workshops are empowering the next generation of innovators.",
+        "authorName": "Alex Doe",
+        "authorRole": "Project Leader"
     },
-
-    "hero": {
-        "title": "Join our cause!",
-        "description": "We help develop social impact projects, organize workshops, hackathons and podcasts. Train other students and schools. Learn from experts and outstanding graduates. Be part of the change today.",
-        "contact": "Contact us"
+    "b": {
+        "category": "Volunteering",
+        "date": "Feb 12, 2024",
+        "title": "The impact of digital volunteering",
+        "description": "Discover how collaboration and technology can transform entire communities from within.",
+        "authorName": "Jane Smith",
+        "authorRole": "Volunteer Coordinator"
     },
-    "about": {
-        "title": "Who are we?",
-        "description": "We are a group of volunteers committed to [state mission]. Since [start year], we have worked on projects in [action areas]."
+    "c": {
+        "category": "Education",
+        "date": "Jan 20, 2024",
+        "title": "Accessible education for all",
+        "description": "Our mission to bring technological knowledge to rural areas and the impact it has generated.",
+        "authorName": "Sam Wilson",
+        "authorRole": "Education Specialist"
     },
-    "projects": {
-        "a": {
-        "title": "Project A",
-        "description": "Brief description of your first initiative."
-        },
-        "b": {
-        "title": "Project B",
-        "description": "Brief description of your second initiative."
-        },
-        "c": {
-        "title": "Project C",
-        "description": "Brief description of your third initiative."
-        }
+    "d": {
+        "category": "Community",
+        "date": "Dec 05, 2023",
+        "title": "Creating collaborative networks",
+        "description": "The importance of building bridges between organizations to maximize social impact.",
+        "authorName": "Emily White",
+        "authorRole": "Partnerships Director"
     },
-    "footer": {
-        "contact": "Contact us"
+    "e": {
+        "category": "Future",
+        "date": "Nov 18, 2023",
+        "title": "The future of social work and tech",
+        "description": "We explore the trends that will define the next decade of technological volunteering.",
+        "authorName": "Michael Brown",
+        "authorRole": "Researcher"
     }
   },
   "footer": {
-    "contact": "Contact Us"
-  }
+    "contact": "Contact us"
+  },
+
+    "queHacemos": {
+        "title": "What do we do?",
+        "subtitle": "We are a volunteer group dedicated to driving digital transformation and social development through technology and collaboration. We organize workshops, training, community projects, and impact activities to improve people's lives and strengthen the social fabric.",
+        "activities": [
+            {
+                "titulo": "Artificial Intelligence Workshop",
+                "descripcion": "We conducted an introductory workshop on AI for young people in the community, covering everything from basic concepts to practical real-world applications."
+            },
+            {
+                "titulo": "Volunteer Day",
+                "descripcion": "We collaborate on social and technological projects for local development, joining forces to create a positive and lasting impact."
+            }
+        ]
+    }
 }

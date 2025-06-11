@@ -6,6 +6,7 @@ import AboutSection from '../sections/HomeSections/AboutSection';
 import Founders from "../sections/HomeSections/FoundersSection";
 import ManagersSection from "../sections/HomeSections/ManagersSection";
 import Footer from '../components/Footer';
+import ProjectsSection from "../sections/HomeSections/ProjectsSection";
 
 
 export default function Home() {
@@ -21,18 +22,7 @@ export default function Home() {
 
             <Founders />
 
-            <ManagersSection />
-
-            <section className="py-16">
-                <div className="container mx-auto px-4 grid md:grid-cols-3 gap-8">
-                {['a', 'b', 'c'].map((key) => (
-                    <div key={key} className="p-6 border rounded-lg shadow-sm hover:shadow-md transition">
-                    <h3 className="text-xl text-principal font-semibold mb-2">{t(`projects.${key}.title`)}</h3>
-                    <p className="text-gray-600">{t(`projects.${key}.description`)}</p>
-                    </div>
-                ))}
-                </div>
-            </section>
+            <ProjectsSection />
             <Footer />
         </div>
     );
