@@ -23,7 +23,8 @@
 
     "about": {
         "title": "¿Qué es Ayni Digital?",
-        "description": "Somos un grupo de voluntarios comprometidos con [mencionar misión]. Desde [año de inicio], trabajamos en proyectos de [áreas de acción]."
+        "description": 
+            "Ayni Digital es una iniciativa juvenil que nace del compromiso por cerrar las brechas digitales en nuestras comunidades, combinando el conocimiento tecnológico con los principios de reciprocidad y solidaridad propios de nuestra cultura andina.."
     },
 
     "founders": {
