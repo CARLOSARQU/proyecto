@@ -10,7 +10,7 @@ export default function NavbarTo({
   return (
     <Link
       to={to}
-      className={`block md:inline-flex w-full md:w-auto px-4 py-2 text-white hover:text-secundario transition items-center ${className}`}
+      className={`flex justify-center md:inline-flex md:justify-start w-full md:w-auto px-4 py-2 text-white hover:text-secundario transition items-center ${className}`}
       onClick={onClick}
     >
       {Icon && <Icon className="text-base" />}
