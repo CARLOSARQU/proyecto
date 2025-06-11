@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 //import { Link } from "react-router-dom";
 import JoinSection from '../sections/HomeSections/JoinSection';
-import MissionVisionCarousel from '../components/MissionVisionCarousel';
+import MissionVisionValores from '../components/MissionVisionCarousel';
 import AboutSection from '../sections/HomeSections/AboutSection';
 import Founders from "../sections/HomeSections/FoundersSection";
 import DirectivaSection from "../sections/HomeSections/DirectivaSection";
@@ -15,9 +15,9 @@ export default function Home() {
         <div className="flex flex-col min-h-screen pt-16">
             <JoinSection />
 
-            <MissionVisionCarousel />
-
             <AboutSection />
+
+            <MissionVisionValores />
 
             <Founders />
 
