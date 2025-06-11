@@ -1,45 +1,41 @@
-import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import SectionTitle from '../components/SectionTitle';
 
-export default function MissionVisionCarousel() {
+export default function MissionVisionValues() {
     const { t } = useTranslation();
-    const slides = [
-    {
-        title: t('mission.title'),
-        text: t('mission.text'),
-    },
-    {
-        title: t('vision.title'),
-        text: t('vision.text'),
-    },
+
+    const sections = [
+        {
+            key: 'mission',
+            title: t('mission.title'),
+            text: t('mission.text'),
+        },
+        {
+            key: 'vision',
+            title: t('vision.title'),
+            text: t('vision.text'),
+        },
+        {
+            key: 'values',
+            title: t('values.title'),
+            text: t('values.text'),
+        },
     ];
 
-    const [current, setCurrent] = useState(0);
-
-    useEffect(() => {
-    const timer = setInterval(() => {
-        setCurrent((prev) => (prev + 1) % slides.length);
-    }, 6000);
-
-    return () => clearInterval(timer);
-    }, [slides.length]);
-
     return (
-    <div className="max-w-3xl mx-auto my-10 p-6 bg-white shadow-lg rounded-lg">
-        <SectionTitle title={slides[current].title}/>
-        <p className="text-gray-700 text-center text-lg">
-        {slides[current].text}
-        </p>
-        <div className="flex justify-center mt-4 space-x-2">
-        {slides.map((_, idx) => (
-            <button
-            key={idx}
-            onClick={() => setCurrent(idx)}
-            className={`w-3 h-3 rounded-full ${current === idx ? 'bg-principal' : 'bg-gray-300'}`}
-            ></button>
-        ))}
-        </div>
-    </div>
+        <section className="bg-gray-50 py-16">
+            <div className="container mx-auto px-4">
+                <SectionTitle title={t('missionVisionValues.title')} />
+                
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
+                    {sections.map((item) => (
+                        <div key={item.key} className="bg-white shadow-md rounded-lg p-6 transition hover:shadow-lg">
+                            <h3 className="text-xl font-bold text-principal mb-3 text-center">{item.title}</h3>
+                            <p className="text-gray-700 text-center">{item.text}</p>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </section>
     );
 }

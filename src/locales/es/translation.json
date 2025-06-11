@@ -11,15 +11,24 @@
         "contact": "Contáctanos"
     },
 
-    "mission": {
-        "title": "Nuestra Misión",
-        "text": "Fomentar la inclusión digital a través de la colaboración comunitaria, brindando herramientas tecnológicas, formación y acompañamiento a personas y organizaciones que más lo necesitan."
-    },
-    "vision": {
-        "title": "Nuestra Visión",
-        "text": "Ser un referente en transformación digital solidaria en Latinoamérica, construyendo puentes entre el conocimiento tecnológico y las comunidades para generar un impacto social duradero."
+    "missionVisionValues": {
+        "title": "Misión, Visión y Valores"
     },
 
+    "mission": {
+        "title": "Nuestra Misión",
+        "text": "Impulsar el desarrollo social a través del voluntariado digital inclusivo."
+    },
+
+    "vision": {
+        "title": "Visión",
+        "text": "Formar una red de jóvenes comprometidos/as con la transformación digital inclusiva."
+    },
+    
+    "values": {
+        "title": "Valores",
+        "text": "Solidaridad, tecnología con propósito, educación libre, equidad, respeto cultural."
+    },
 
     "about": {
         "title": "¿Qué es Ayni Digital?",
@@ -33,6 +42,24 @@
         "role": {
             "founder": "Fundador",
             "cofounder": "Co-Fundador"
+        },
+        "description": {
+            "rusman": "Apasionado por la tecnología  de 10 años de experiencia en desarrollo de software.",
+            "carlos": "Experto en arquitectura de software y  Comprometido con la innovación y el desarrollo.",
+            "eddy": "Especialista en innovacióado en crear soluciones que generen impacto social.",
+            "jean": "Experto en estrategia digital y rollo de soluciones innovadoras para el sector social."
+        }
+    },
+
+    "managers": {
+        "title": "Nuestra Junta Directiva 2025",
+        "subtitle": "",
+        "role": {
+            "presidente": "Presidente",
+            "vicepresidente": "Vicepresidente",
+            "secretario": "Secretari@",
+            "vocal": "Vocal",
+            "director_ejecutivo": "Director Ejecutivo"
         },
         "description": {
             "rusman": "Apasionado por la tecnología  de 10 años de experiencia en desarrollo de software.",

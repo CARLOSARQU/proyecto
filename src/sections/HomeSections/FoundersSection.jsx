@@ -1,5 +1,8 @@
 import Founders from "../../components/Founders";
 import Rusman from "../../assets/img/founders/rusman.webp";
+import Carlos from "../../assets/img/founders/rusman.webp";
+import Eddy from "../../assets/img/founders/rusman.webp";
+import Jean from "../../assets/img/founders/rusman.webp";
 import { useTranslation } from "react-i18next";
 
 const founders = [ 

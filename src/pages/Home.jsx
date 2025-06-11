@@ -1,9 +1,10 @@
 import { useTranslation } from 'react-i18next';
 //import { Link } from "react-router-dom";
-import Founders from "../sections/HomeSections/FoundersSection";
+import JoinSection from '../sections/HomeSections/JoinSection';
 import MissionVisionCarousel from '../components/MissionVisionCarousel';
 import AboutSection from '../sections/HomeSections/AboutSection';
-import JoinSection from '../sections/HomeSections/JoinSection';
+import Founders from "../sections/HomeSections/FoundersSection";
+import DirectivaSection from "../sections/HomeSections/DirectivaSection";
 import Footer from '../components/Footer';
 
 
@@ -19,6 +20,8 @@ export default function Home() {
             <AboutSection />
 
             <Founders />
+
+            <DirectivaSection />
 
             <section className="py-16">
                 <div className="container mx-auto px-4 grid md:grid-cols-3 gap-8">
