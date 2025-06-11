@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/img/logo.webp";
-import { FaAddressBook, FaHome, FaGlobe, FaBars, FaTimes } from "react-icons/fa";
+import { FaAddressBook, FaHome, FaGlobe, FaBars, FaTimes, FaHandsHelping } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import Button from "./Button";
@@ -64,6 +64,13 @@ export default function Navbar() {
             onClick={() => setIsOpen(false)}
           >
             {t("navbar.contact")}
+          </NavbarTo>
+          <NavbarTo
+            to="/que-hacemos"
+            icon={FaHandsHelping}
+            onClick={() => setIsOpen(false)}
+          >
+            ¿Qué hacemos?
           </NavbarTo>
           <Button 
             onClick={() => {
