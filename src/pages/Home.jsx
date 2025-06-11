@@ -4,7 +4,7 @@ import JoinSection from '../sections/HomeSections/JoinSection';
 import MissionVisionValores from '../components/MissionVisionCarousel';
 import AboutSection from '../sections/HomeSections/AboutSection';
 import Founders from "../sections/HomeSections/FoundersSection";
-import DirectivaSection from "../sections/HomeSections/DirectivaSection";
+import ManagersSection from "../sections/HomeSections/ManagersSection";
 import Footer from '../components/Footer';
 
 
@@ -21,7 +21,7 @@ export default function Home() {
 
             <Founders />
 
-            <DirectivaSection />
+            <ManagersSection />
 
             <section className="py-16">
                 <div className="container mx-auto px-4 grid md:grid-cols-3 gap-8">

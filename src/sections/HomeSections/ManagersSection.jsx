@@ -6,7 +6,8 @@ const managers = [
     {
         name: "Rusman Apaza",
         roleKey: "presidente",
-        description: "rusman",
+        career: "Ing. Sistemas",
+        description: "presidente",
         image: Rusman,
         social: {
             github: "https://github.com/RYUSNEY",
@@ -17,7 +18,8 @@ const managers = [
     {
         name: "Carlos Arque",
         roleKey: "vicepresidente",
-        description: "carlos",
+        career: "Ing. Sistemas",
+        description: "vicepresidente",
         image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3",
         social: {
             github: "https://github.com/CARLOSARQU",
@@ -26,9 +28,10 @@ const managers = [
         }
     },
     {
-        name: "Sin definir",
+        name: "Yamil Balboa",
         roleKey: "secretario",
-        description: "jean",
+        career: "Medicina Humana",
+        description: "secretario",
         image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3",
         social: {
             github: "#",
@@ -39,7 +42,8 @@ const managers = [
     {
         name: "Eddy Quea",
         roleKey: "vocal",
-        description: "eddy",
+        career: "Ing. Sistemas",
+        description: "vocal",
         image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3",
         social: {
             github: "https://github.com/EddyGonzalo",
@@ -50,7 +54,8 @@ const managers = [
     {
         name: "Jean Apaza",
         roleKey: "director_ejecutivo",
-        description: "jean",
+        career: "Ing. Sistemas",
+        description: "director_ejecutivo",
         image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3",
         social: {
             github: "#",
@@ -60,7 +65,7 @@ const managers = [
     }
 ];
 
-export default function JuntaDirectiva() {
+export default function ManagersSection() {
     return (
         <div>
             <Managers managers={managers} />

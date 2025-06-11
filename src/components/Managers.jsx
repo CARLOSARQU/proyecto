@@ -26,13 +26,16 @@ export default function Managers({ managers }) {
                         />
                         </div>
                         <div className="p-6 md:w-full">
-                            <h3 className="text-2xl text-center font-bold text-principal mb-2">
+                            <h3 className="text-2xl text-center font-bold text-principal">
                                 {manager.name}
                             </h3>
+                            <p className="text-center text-gray-500 mb-2">
+                                {manager.career}
+                            </p>
                             <p className="text-secundario text-center font-semibold mb-4">
                                 {t(`managers.role.${manager.roleKey}`)}
                             </p>
-                            <p className="text-gray-600 mb-6">
+                            <p className="text-gray-600 text-center mb-6">
                                 {t(`managers.description.${manager.description}`)}
                             </p>
                             <div className="flex justify-center space-x-4">
