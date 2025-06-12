@@ -70,7 +70,7 @@ export default function Navbar() {
             icon={FaHandsHelping}
             onClick={() => setIsOpen(false)}
           >
-            ¿Qué hacemos?
+            {t("queHacemos.title")}
           </NavbarTo>
           <Button 
             onClick={() => {
