@@ -55,7 +55,7 @@ export default function ProjectsSection() {
                       </span>
                     </div>
                     <div className="group relative">
-                      <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                      <h3 className="mt-3 text-lg text-center font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
                         <span className="absolute inset-0" />
                         {t(`projects.${key}.title`)}
                       </h3>
