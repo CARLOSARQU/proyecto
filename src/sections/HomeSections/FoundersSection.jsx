@@ -1,9 +1,8 @@
 import Founders from "../../components/Founders";
 import Rusman from "../../assets/img/founders/rusman.webp";
-import Carlos from "../../assets/img/founders/rusman.webp";
+import Carlos from "../../assets/img/founders/carlos.webp";
 import Eddy from "../../assets/img/founders/rusman.webp";
 import Jean from "../../assets/img/founders/rusman.webp";
-import { useTranslation } from "react-i18next";
 
 const founders = [ 
   {
@@ -21,7 +20,7 @@ const founders = [
     name: "Carlos Arque",
     roleKey: "cofounder",
     description: "carlos",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3",
+    image: Carlos,
     social: {
       github: "https://github.com/CARLOSARQU",
       linkedin: "#",
@@ -32,7 +31,7 @@ const founders = [
     name: "Eddy Quea",
     roleKey: "cofounder",
     description: "eddy",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3",
+    image: Carlos,
     social: {
       github: "https://github.com/EddyGonzalo",
       linkedin: "#",
@@ -43,7 +42,7 @@ const founders = [
     name: "Jean Apaza",
     roleKey: "cofounder",
     description: "jean",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3",
+    image: Carlos,
     social: {
       github: "#",
       linkedin: "#",
