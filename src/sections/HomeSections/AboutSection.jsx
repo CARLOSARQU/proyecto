@@ -5,7 +5,7 @@ export default function AboutSection() {
     const { t } = useTranslation();
 
     return (
-    <section className="py-16 bg-gray-100">
+    <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
             <SectionTitle title={t('about.title')}/>
             <p className="max-w-2xl mx-auto text-center text-gray-700 leading-relaxed">
