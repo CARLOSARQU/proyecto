@@ -1,7 +1,8 @@
 {
     "navbar": {
         "home": "Inicio",
-        "contact": "Contacto"
+        "contact": "Contacto",
+        "convocatoria": "Convocatoria"
     },
 
     
@@ -131,5 +132,30 @@
                 "descripcion": "Colaboramos en proyectos sociales y tecnológicos para el desarrollo local, uniendo esfuerzos para generar un impacto positivo y duradero."
             }
         ]
+    },
+
+    "convocatoria": {
+        "title": "Convocatoria de Voluntariado",
+        "subtitle": "Completa el formulario para postularte como voluntario/a en Ayni Digital.",
+        "nombres": "Nombres",
+        "apellidos": "Apellidos",
+        "carrera": "Carrera",
+        "codigo": "Cod. Estudiante",
+        "email": "Correo electrónico",
+        "telefono": "Teléfono",
+        "edad": "Edad",
+        "ciudad": "Ciudad",
+        "semestre_placeholder": "Selecciona el semestre al que perteneces",
+        "motivo": "¿Por qué quieres ser voluntario/a?",
+        "experiencia_previa": "¿Tienes experiencia previa en voluntariado?",
+        "disponibilidad": "Disponibilidad horaria (ej: tardes, fines de semana)",
+        "enviar": "Enviar postulación",
+        "error_obligatorio": "Este campo es obligatorio",
+        "error_email": "Ingresa un correo válido",
+        "error_edad": "Edad entre 15 y 99 años",
+        "error_codigo": "Ingresa un código de estudiante válido",
+        "error_semestre": "Selecciona tu semestre",
+        "error_motivo": "Cuéntanos tu motivación",
+        "error_disponibilidad": "Indica tu disponibilidad"
     }
 }

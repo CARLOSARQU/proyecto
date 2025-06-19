@@ -1,7 +1,8 @@
 {
   "navbar": {
         "home": "Home",
-        "contact": "Contact"
+        "contact": "Contact",
+        "convocatoria": "Call for Applications"
     },
 
   "hero": {
@@ -104,5 +105,30 @@
                 "descripcion": "We collaborate on social and technological projects for local development, joining forces to create a positive and lasting impact."
             }
         ]
-    }
+    },
+
+  "convocatoria": {
+    "title": "Volunteer Call",
+    "subtitle": "Complete the form to apply as a volunteer at Ayni Digital.",
+    "nombres": "First Name(s)",
+    "apellidos": "Last Name(s)",
+    "carrera": "Major",
+    "codigo": "Student Code",
+    "email": "Email",
+    "telefono": "Phone",
+    "edad": "Age",
+    "ciudad": "City",
+    "semestre_placeholder": "Select your current semester",
+    "motivo": "Why do you want to be a volunteer?",
+    "experiencia_previa": "Do you have previous volunteer experience?",
+    "disponibilidad": "Availability (e.g. afternoons, weekends)",
+    "enviar": "Submit Application",
+    "error_obligatorio": "This field is required",
+    "error_email": "Enter a valid email",
+    "error_edad": "Age between 15 and 99",
+    "error_codigo": "Enter a valid student code",
+    "error_semestre": "Select your semester",
+    "error_motivo": "Tell us your motivation",
+    "error_disponibilidad": "Indicate your availability"
+  }
 }

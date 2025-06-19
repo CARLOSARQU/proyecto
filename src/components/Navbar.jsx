@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/img/logo.webp";
-import { FaAddressBook, FaHome, FaGlobe, FaBars, FaTimes, FaHandsHelping } from "react-icons/fa";
+import { FaAddressBook, FaHome, FaGlobe, FaBars, FaTimes, FaHandsHelping, FaBullhorn } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import Button from "./Button";
@@ -71,6 +71,13 @@ export default function Navbar() {
             onClick={() => setIsOpen(false)}
           >
             {t("queHacemos.title")}
+          </NavbarTo>
+          <NavbarTo
+            to="/convocatoria"
+            icon={FaBullhorn}
+            onClick={() => setIsOpen(false)}
+          >
+            {t("navbar.convocatoria")}
           </NavbarTo>
           <Button 
             onClick={() => {
