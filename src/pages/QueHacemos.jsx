@@ -1,4 +1,5 @@
 import SectionTitle from '../components/SectionTitle';
+import MissionVisionValores from '../components/MissionVisionCarousel'; 
 import { useTranslation } from 'react-i18next';
 import iaImg from '../assets/img/ia.webp';
 import logoImg from '../assets/img/logo.webp';
@@ -16,7 +17,7 @@ export default function QueHacemos() {
         <p className="max-w-3xl mx-auto text-center text-gray-600 leading-relaxed mt-4 mb-16">
           {t('queHacemos.subtitle')}
         </p>
-
+        <MissionVisionValores />
         <div className="space-y-16">
           {actividades.map((act, idx) => (
             <div key={idx} className="flex flex-col md:flex-row items-center gap-8 md:gap-12">

@@ -1,7 +1,6 @@
 //import { useTranslation } from 'react-i18next';
 //import { Link } from "react-router-dom";
 import JoinSection from '../sections/HomeSections/JoinSection';
-import MissionVisionValores from '../components/MissionVisionCarousel';
 import AboutSection from '../sections/HomeSections/AboutSection';
 import Founders from "../sections/HomeSections/FoundersSection";
 import ManagersSection from "../sections/HomeSections/ManagersSection";
@@ -18,7 +17,6 @@ export default function Home() {
 
             <AboutSection />
 
-            <MissionVisionValores />
 
             <Founders />
 
