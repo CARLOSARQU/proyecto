@@ -74,17 +74,17 @@
         "title": "Nuestros Proyectos",
         "subtitle": "Aprende cómo estamos creciendo y generando impacto con nuestros proyectos.",
         "a": {
-            "category": "Tecnología",
+            "category": "Programación",
             "date": "Mar 16, 2024",
-            "title": "Impulsando la IA en la comunidad",
+            "title": "Desarrollo y Soporte",
             "description": "Un vistazo a cómo nuestros talleres de IA están capacitando a la próxima generación de innovadores.",
             "authorName": "Alex Doe",
             "authorRole": "Líder de Proyecto"
         },
         "b": {
-            "category": "Voluntariado",
+            "category": "Redes Sociales",
             "date": "Feb 12, 2024",
-            "title": "El impacto del voluntariado digital",
+            "title": "Comunicación e Innovación Digital",
             "description": "Descubre cómo la colaboración y la tecnología pueden transformar comunidades enteras desde adentro.",
             "authorName": "Jane Smith",
             "authorRole": "Coordinadora de Voluntarios"
@@ -92,23 +92,23 @@
         "c": {
             "category": "Educación",
             "date": "Jan 20, 2024",
-            "title": "Educación accesible para todos",
+            "title": "Programa Educativo",
             "description": "Nuestra misión de llevar conocimiento tecnológico a zonas rurales y el impacto que ha generado.",
             "authorName": "Sam Wilson",
             "authorRole": "Especialista en Educación"
         },
         "d": {
-            "category": "Comunidad",
+            "category": "Innovación",
             "date": "Dic 05, 2023",
-            "title": "Creando redes de colaboración",
+            "title": "Talento Humano",
             "description": "La importancia de construir puentes entre organizaciones para maximizar el impacto social.",
             "authorName": "Emily White",
             "authorRole": "Directora de Alianzas"
         },
         "e": {
-            "category": "Futuro",
+            "category": "Gestión de Eventos",
             "date": "Nov 18, 2023",
-            "title": "El futuro del trabajo social y la tech",
+            "title": "Logística",
             "description": "Exploramos las tendencias que definirán la próxima década del voluntariado tecnológico.",
             "authorName": "Michael Brown",
             "authorRole": "Investigador"
