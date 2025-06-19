@@ -5,11 +5,6 @@ import logoImg from '../assets/img/logo.webp';
 import iaImg from '../assets/img/ia.webp';
 import rusmanImg from '../assets/img/founders/rusman.webp';
 
-const icons = {
-    mission: <FaBullseye className="text-4xl text-principal mb-2 mx-auto" />,
-    vision: <FaEye className="text-4xl text-principal mb-2 mx-auto" />,
-    values: <FaHeart className="text-4xl text-principal mb-2 mx-auto" />,
-};
 
 const images = {
     mission: logoImg,
@@ -39,7 +34,7 @@ export default function MissionVisionValues() {
     ];
 
     return (
-        <section className="bg-gradient-to-b from-gray-50 to-white py-20">
+        <section className="bg-gradient-to-b from-gray-50 to-white py-10">
             <div className="container mx-auto px-4">
                 <SectionTitle title={t('missionVisionValues.title')} />
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">

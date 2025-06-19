@@ -1,6 +1,5 @@
 import Managers from "../../components/Managers";
 import Rusman from "../../assets/img/founders/rusman.webp";
-import { useTranslation } from "react-i18next";
 
 const managers = [ 
     {
