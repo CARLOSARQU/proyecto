@@ -1,11 +1,20 @@
 import { useTranslation } from 'react-i18next';
 import SectionTitle from '../components/SectionTitle';
 import { FaBullseye, FaEye, FaHeart } from 'react-icons/fa';
+import logoImg from '../assets/img/logo.webp';
+import iaImg from '../assets/img/ia.webp';
+import rusmanImg from '../assets/img/founders/rusman.webp';
 
 const icons = {
-    mission: <FaBullseye className="text-4xl text-principal mb-4 mx-auto" />,
-    vision: <FaEye className="text-4xl text-principal mb-4 mx-auto" />,
-    values: <FaHeart className="text-4xl text-principal mb-4 mx-auto" />,
+    mission: <FaBullseye className="text-4xl text-principal mb-2 mx-auto" />,
+    vision: <FaEye className="text-4xl text-principal mb-2 mx-auto" />,
+    values: <FaHeart className="text-4xl text-principal mb-2 mx-auto" />,
+};
+
+const images = {
+    mission: logoImg,
+    vision: iaImg,
+    values: rusmanImg,
 };
 
 export default function MissionVisionValues() {
@@ -43,7 +52,7 @@ export default function MissionVisionValues() {
                             }
                             style={{ animationFillMode: 'forwards', animationDuration: '0.8s' }}
                         >
-                            {icons[item.key]}
+                            <img src={images[item.key]} alt={item.title} className="w-20 h-20 object-cover rounded-full shadow mb-3 border-4 border-principal" />
                             <h3 className="text-2xl font-bold text-principal mb-3 text-center">{item.title}</h3>
                             <p className="text-gray-700 text-center text-lg">{item.text}</p>
                         </div>
