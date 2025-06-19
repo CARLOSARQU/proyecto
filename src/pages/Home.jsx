@@ -15,8 +15,6 @@ export default function Home() {
         <div className="flex flex-col min-h-screen pt-16">
             <JoinSection />
 
-            <AboutSection />
-
             <Founders />
 
             <ManagersSection />

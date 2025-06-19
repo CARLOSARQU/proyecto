@@ -6,7 +6,7 @@ export default function Managers({ managers }) {
     const { t } = useTranslation();
 
     return (
-        <section className="py-16 bg-gradient-to-b from-gray-50 to-white">
+        <section className="py-8 bg-gradient-to-b from-gray-50 to-white">
         <div className="container mx-auto px-4">
             <SectionTitle title={t("managers.title")} />
 
