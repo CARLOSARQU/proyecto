@@ -55,7 +55,11 @@ export default function Convocatoria() {
                   list="carreras-list"
                   autoComplete="off"
                 />
-                {errors.carrera && <span className="text-red-500 text-sm">Este campo es obligatorio</span>}
+                <datalist id="carreras-list">
+                  <option value="Ing. Sistemas" />
+                  <option value="Contabilidad" />
+                </datalist>
+                {errors.carrera && <span className="text-red-500 text-sm">{t('convocatoria.error_obligatorio')}</span>}
               </div>
               <div>
                 <input
