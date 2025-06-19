@@ -71,47 +71,47 @@
     },
 
     "projects": {
-        "title": "Nuestros Proyectos",
-        "subtitle": "Aprende cómo estamos creciendo y generando impacto con nuestros proyectos.",
+        "title": "Nuestros Areas de Trabajo",
+        "subtitle": "Conoce nuestras areas de trabajo donde cada voluntario aporta.",
         "a": {
             "category": "Programación",
-            "date": "Mar 16, 2024",
+            "date": "Marzo 16, 2025",
             "title": "Desarrollo y Soporte",
-            "description": "Un vistazo a cómo nuestros talleres de IA están capacitando a la próxima generación de innovadores.",
+            "description": "Desarrolla, mejora y da soporte a nuestros sistemas y aplicaciones del voluntariado.",
             "authorName": "Alex Doe",
-            "authorRole": "Líder de Proyecto"
+            "authorRole": "Ing. Sistemas"
         },
         "b": {
             "category": "Redes Sociales",
-            "date": "Feb 12, 2024",
-            "title": "Comunicación e Innovación Digital",
-            "description": "Descubre cómo la colaboración y la tecnología pueden transformar comunidades enteras desde adentro.",
+            "date": "Febrero 18, 2025",
+            "title": "Comunicación Digital",
+            "description": "Unete a la familia encargada de difundir nuestro proposito mediante redes sociales.",
             "authorName": "Jane Smith",
-            "authorRole": "Coordinadora de Voluntarios"
+            "authorRole": "Ing. Sistemas"
         },
         "c": {
             "category": "Educación",
-            "date": "Jan 20, 2024",
+            "date": "Junio 27, 2024",
             "title": "Programa Educativo",
-            "description": "Nuestra misión de llevar conocimiento tecnológico a zonas rurales y el impacto que ha generado.",
+            "description": "Desarrollo de talleres, capacitaciones y actividades formativas. ",
             "authorName": "Sam Wilson",
-            "authorRole": "Especialista en Educación"
+            "authorRole": "Ed. Secundaria"
         },
         "d": {
             "category": "Innovación",
-            "date": "Dic 05, 2023",
+            "date": "Abril 20, 2025",
             "title": "Talento Humano",
-            "description": "La importancia de construir puentes entre organizaciones para maximizar el impacto social.",
+            "description": "Innova, diseña y construye apps para solucionar problemas de la sociedad",
             "authorName": "Emily White",
-            "authorRole": "Directora de Alianzas"
+            "authorRole": "Administración"
         },
         "e": {
             "category": "Gestión de Eventos",
-            "date": "Nov 18, 2023",
+            "date": "Abril 8, 2025",
             "title": "Logística",
-            "description": "Exploramos las tendencias que definirán la próxima década del voluntariado tecnológico.",
+            "description": "Aprende sobre gestión, organización y manejo de eventos dentro del voluntariado",
             "authorName": "Michael Brown",
-            "authorRole": "Investigador"
+            "authorRole": "Contabilidad"
         }
     },
     "footer": {
