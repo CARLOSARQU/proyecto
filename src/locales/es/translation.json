@@ -58,15 +58,15 @@
         "role": {
             "presidente": "Presidente",
             "vicepresidente": "Vicepresidente",
-            "secretario": "Secretari@",
+            "secretario": "Secretario",
             "vocal": "Vocal",
             "director_ejecutivo": "Director Ejecutivo"
         },
         "description": {
             "presidente": "Apasionado el desarrollo de software y la innovación tecnologicas.",
-            "vicepresidente": "Dedicado a la vision por computadora y experto en tenis de mesa",
+            "vicepresidente": "Dedicado a la vision por computadora y procesamiento de imagen.",
             "secretario": "Interesado en el desarrollo de software y S.O. moviles.",
-            "vocal": "Apasionado por el deep learning y migajero. (angie) ok no",
+            "vocal": "Apasionado por el deep learning y la inteligencia artificial.",
             "director_ejecutivo": "Apasionado en ciberseguridad y hacking etico."
         }
     },

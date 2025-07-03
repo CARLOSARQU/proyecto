@@ -1,5 +1,8 @@
 import Managers from "../../components/Managers";
-import Rusman from "../../assets/img/founders/rusman.webp";
+import Rusman from "../../assets/img/founders/user.webp";
+import Carlos from "../../assets/img/founders/user.webp";
+import Eddy from "../../assets/img/founders/user.webp";
+import Jean from "../../assets/img/founders/user.webp";
 
 const managers = [ 
     {
@@ -19,7 +22,7 @@ const managers = [
         roleKey: "vicepresidente",
         career: "Ing. Sistemas",
         description: "vicepresidente",
-        image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3",
+        image: Carlos,
         social: {
             github: "https://github.com/CARLOSARQU",
             linkedin: "#",
@@ -31,7 +34,7 @@ const managers = [
         roleKey: "secretario",
         career: "Medicina Humana",
         description: "secretario",
-        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3",
+        image: Carlos,
         social: {
             github: "#",
             linkedin: "#",
@@ -43,7 +46,7 @@ const managers = [
         roleKey: "vocal",
         career: "Ing. Sistemas",
         description: "vocal",
-        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3",
+        image: Eddy,
         social: {
             github: "https://github.com/EddyGonzalo",
             linkedin: "#",
@@ -55,7 +58,7 @@ const managers = [
         roleKey: "director_ejecutivo",
         career: "Ing. Sistemas",
         description: "director_ejecutivo",
-        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3",
+        image: Jean,
         social: {
             github: "#",
             linkedin: "#",

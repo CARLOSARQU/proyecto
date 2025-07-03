@@ -4,7 +4,7 @@ import social_media       from '../../assets/img/areas/social_media.png';
 import programa_educativo from '../../assets/img/areas/programa_educativo.png';
 import talento_humano     from '../../assets/img/areas/talento_humano.png';
 import logistica          from '../../assets/img/areas/logistica.png';
-
+import user               from '../../assets/img/founders/user.webp';
 const imageMap = {
   a: desarrollo_soporte,
   b: social_media,
@@ -14,11 +14,11 @@ const imageMap = {
 };
 
 const avatarMap = {
-    a: 'https://randomuser.me/api/portraits/men/1.jpg',
-    b: 'https://randomuser.me/api/portraits/women/2.jpg',
-    c: 'https://randomuser.me/api/portraits/men/3.jpg',
-    d: 'https://randomuser.me/api/portraits/women/4.jpg',
-    e: 'https://randomuser.me/api/portraits/men/5.jpg',
+    a: user,
+    b: user,
+    c: user,
+    d: user,
+    e: user,
 }
 
 export default function ProjectsSection() {

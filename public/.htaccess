@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+  # Activa el motor de reescritura de URLs
+  RewriteEngine On
+
+  # Especifica la base de la URL de tu proyecto. Si está en la raíz, es solo /
+  RewriteBase /
+
+  # Regla: Si la petición NO es para un archivo existente...
+  RewriteCond %{REQUEST_FILENAME} !-f
+  # Y tampoco es para un directorio existente...
+  RewriteCond %{REQUEST_FILENAME} !-d
+
+  # ...entonces, redirige la petición a index.html
+  RewriteRule . /index.html [L]
+</IfModule>

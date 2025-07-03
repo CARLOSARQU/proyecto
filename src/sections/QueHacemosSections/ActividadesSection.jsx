@@ -1,10 +1,10 @@
 import SectionTitle from '../../components/SectionTitle';
 import iaImg from '../../assets/img/ia.webp';
-import logoImg from '../../assets/img/logo.webp';
+import fondo from '../../assets/img/fondo.webp';
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 
-const images = [iaImg, logoImg];
+const images = [iaImg,  fondo];
 
 export default function ActividadesSection() {
     const { t } = useTranslation();

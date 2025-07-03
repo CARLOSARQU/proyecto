@@ -1,8 +1,8 @@
 import Founders from "../../components/Founders";
-import Rusman from "../../assets/img/founders/rusman.webp";
-import Carlos from "../../assets/img/founders/carlos.webp";
-import Eddy from "../../assets/img/founders/rusman.webp";
-import Jean from "../../assets/img/founders/rusman.webp";
+import Rusman from "../../assets/img/founders/user.webp";
+import Carlos from "../../assets/img/founders/user.webp";
+import Eddy from "../../assets/img/founders/user.webp";
+import Jean from "../../assets/img/founders/user.webp";
 
 const founders = [ 
   {
@@ -31,7 +31,7 @@ const founders = [
     name: "Eddy Quea",
     roleKey: "cofounder",
     description: "eddy",
-    image: Carlos,
+    image: Eddy,
     social: {
       github: "https://github.com/EddyGonzalo",
       linkedin: "#",
@@ -42,7 +42,7 @@ const founders = [
     name: "Jean Apaza",
     roleKey: "cofounder",
     description: "jean",
-    image: Carlos,
+    image: Jean,
     social: {
       github: "#",
       linkedin: "#",

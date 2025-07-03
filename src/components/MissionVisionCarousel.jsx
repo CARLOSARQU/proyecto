@@ -3,13 +3,13 @@ import SectionTitle from '../components/SectionTitle';
 import { FaBullseye, FaEye, FaHeart } from 'react-icons/fa';
 import logoImg from '../assets/img/logo.webp';
 import iaImg from '../assets/img/ia.webp';
-import rusmanImg from '../assets/img/founders/rusman.webp';
+import valores from '../assets/img/valores.webp';
 
 
 const images = {
     mission: logoImg,
     vision: iaImg,
-    values: rusmanImg,
+    values: valores,
 };
 
 export default function MissionVisionValues() {
